@@ -49,7 +49,7 @@ function Home() {
             title={
               "LG Ultragear - 32Gn650 Qhd 32 Inch(80 Cm) 2560 X 1440 Pixels, 165 Hz 1Ms, Nvidia G-Sync Compatible, Freesync Premium, HDR 10, Hdmi, Tilt, Height, Pivot Stand, Va Panel Gaming LCD Monitor, Black"
             }
-            price="24399"
+            price={24399}
             image="https://m.media-amazon.com/images/I/71PbKy5iBFL._AC_UY327_FMwebp_QL65_.jpg"
             rating={5}
           />

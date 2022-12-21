@@ -16,7 +16,7 @@ function App() {
           </Route>
           <Route exact path="/">
             <Header />
-            <Home />
+            <Checkout />
           </Route>
         </Switch>
       </div>
