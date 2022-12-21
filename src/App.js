@@ -10,19 +10,17 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/checkout">
+          <Route exact path="/checkout">
             <Header />
             <Checkout />
-          </Route>  
-          <Route path="/">
+          </Route>
+          <Route exact path="/">
             <Header />
             <Home />
           </Route>
         </Switch>
       </div>
     </Router>
-
-   
   );
 }
 
