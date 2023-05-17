@@ -1,10 +1,23 @@
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBtocoI2XYQ0Xh74aysvgooUOl6CnWM7qI",
-    authDomain: "kickflik-afc43.firebaseapp.com",
-    projectId: "kickflik-afc43",
-    storageBucket: "kickflik-afc43.appspot.com",
-    messagingSenderId: "43413182328",
-    appId: "1:43413182328:web:0c52217832ffb2f0029a8d",
-    measurementId: "G-M6DPTC23QL"
-  };
+  apiKey: "AIzaSyCcPSKlYtpdzBoAC8soeSmIARMzVKzrf5I",
+  authDomain: "challenge-4b2b2.firebaseapp.com",
+  databaseURL: "https://challenge-4b2b2.firebaseio.com",
+  projectId: "challenge-4b2b2",
+  storageBucket: "challenge-4b2b2.appspot.com",
+  messagingSenderId: "962418448875",
+  appId: "1:962418448875:web:f6cce5eeaf819481f661ae",
+};
+
+// Use this to initialize the firebase App
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+// Use these for db & auth
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+
+
+export { db, auth };

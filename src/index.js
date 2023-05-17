@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import reducer, { initialState } from "./reducer";
 import { StateProvider } from "./StateProvider";
-
+//it is used as a data layer, so that wherever we need the data we can fetch the data from the data layer
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

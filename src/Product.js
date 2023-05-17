@@ -32,9 +32,9 @@ function Product({ id, title, image, price, rating }) {
         </p>
         <div className="product__rating">
           {Array(rating)
-            .fill()
+            .fill()                  //fill() method sets all the elements of an array to a static value.
             .map((_, i) => (
-              <p>⭐</p>
+              <p>⭐</p>             //This applies a mapping function to each element in the array. The mapping function takes two arguments, the current element (represented by _) and the index of the element (represented by i).
             ))}
         </div>
       </div>
